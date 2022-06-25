@@ -8,23 +8,23 @@ section {
 }
 
 h1 {
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 10px;
+    padding-top: 10px;
 }
 .centro {
-    font-size: 10px;
+    font-size: 5px;
     transform: translateY(10vh);
 }
 
 .centro1 {
-    margin-top: 20px;
-    font-size: 10px;
+    margin-top: 10px;
+    font-size: 5px;
     transform: translateY(10vh);
 }
 
 .centro2 {
-    margin-top: 20px;
-    font-size: 10px;
+     margin-top: 10px;
+    font-size: 5px;
     transform: translateY(10vh);
 }
 
@@ -35,14 +35,14 @@ h1 {
 }
 #nominal {
     width: 250px;
-    font-size: 10px;
+    font-size: 5px;
     text-align: center;
 }
 
 #real {
    
     width: 250px;
-    font-size: 10px;
+    font-size: 5px;
     text-align: center;
 }
 
@@ -51,5 +51,5 @@ h1 {
 }
 
 button {
-    font-size: 10px;
+    font-size: 5px;
 }
