@@ -1,0 +1,55 @@
+section {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100vh;
+    background-color: #00adff;
+
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 30px;
+}
+.centro {
+    font-size: 30px;
+    transform: translateY(10vh);
+}
+
+.centro1 {
+    margin-top: 40px;
+    font-size: 30px;
+    transform: translateY(10vh);
+}
+
+.centro2 {
+    margin-top: 40px;
+    font-size: 30px;
+    transform: translateY(10vh);
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    margin: 0px auto;
+}
+#nominal {
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#real {
+   
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.resultado {
+    font-size: 3em;
+}
+
+button {
+    font-size: 20px;
+}
