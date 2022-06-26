@@ -5,11 +5,24 @@ function resultado () {
 	var num1Novo = num1.replace(/,/g, '.');
 	var num2Novo = num2.replace(/,/g, '.');
 	
-
-	var resultado = (parseFloat(num1Novo) / parseFloat(num2Novo) - 1) * 100;
-	document.querySelector("#resultado").innerHTML = "O Resultado é: " + resultado.toFixed(2) + "%";
-
-
+	if (num1Novo == false && num2Novo == false) {
+		document.querySelector("#resultado").style.color = 'yellow';
+		document.querySelector("#resultado").style.fontSize = '15px';
+		document.querySelector("#resultado").innerHTML = "Digite a resistência Nominal e a Real";
+	}else if (num2Novo == false) {
+		document.querySelector("#resultado").style.color = 'yellow';
+		document.querySelector("#resultado").style.fontSize = '15px';
+		document.querySelector("#resultado").innerHTML = "Digite a resistência Nominal";
+	}else if (num1Novo == false) {
+		document.querySelector("#resultado").style.color = 'yellow';
+		document.querySelector("#resultado").style.fontSize = '15px';
+		document.querySelector("#resultado").innerHTML = "Digite a resistência Real";
+	}else {
+		var resultado = (parseFloat(num1Novo) / parseFloat(num2Novo) - 1) * 100;
+		document.querySelector("#resultado").style.fontSize = '20px';
+		document.querySelector("#resultado").innerHTML = "O Resultado é: " + resultado.toFixed(2) + "%";
+	
+	
 
 	if (resultado <= 4.01 && resultado >= -4.01) {
 		document.querySelector("#resultado").style.color = '#00f700';
@@ -19,6 +32,7 @@ function resultado () {
 		document.querySelector("#resultado").style.color = '#c31212';
 		document.querySelector("#msgResponsavel").style.fontSize = '20px';
 		document.querySelector("#msgResponsavel").innerHTML = 'Chame o responsável';
+	}
 	}
 	console.log(resultado);
 }
