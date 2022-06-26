@@ -12,9 +12,13 @@ function resultado () {
 
 
 	if (resultado <= 4.01 && resultado >= -4.01) {
-		document.querySelector("#resultado").style.color = 'green';
+		document.querySelector("#resultado").style.color = '#00f700';
+		document.querySelector("#msgResponsavel").innerHTML = '';
+
 	} else {
-		document.querySelector("#resultado").style.color = 'red';
+		document.querySelector("#resultado").style.color = '#c31212';
+		document.querySelector("#msgResponsavel").style.fontSize = '20px';
+		document.querySelector("#msgResponsavel").innerHTML = 'Chame o responsável';
 	}
 	console.log(resultado);
 }
