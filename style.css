@@ -76,3 +76,21 @@ button {
     background-color: blue;
 }
 
+.rodape {
+    width: 240px;
+    position: relative;
+    margin: 0px auto;
+    top: 70px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.rodape2 {
+    width: 240px;
+    position: relative;
+    margin: 0px auto;
+    top: 100px;
+    text-align: justify;
+    font-size: 15px;
+}
+
