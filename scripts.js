@@ -31,7 +31,7 @@ function resultado () {
 	} else {
 		document.querySelector("#resultado").style.color = '#c31212';
 		document.querySelector("#msgResponsavel").style.fontSize = '20px';
-		document.querySelector("#msgResponsavel").innerHTML = 'Chame o responsável';
+		document.querySelector("#msgResponsavel").innerHTML = 'Fora do especificado';
 	}
 	}
 	console.log(resultado);
