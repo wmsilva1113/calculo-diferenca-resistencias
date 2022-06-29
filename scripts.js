@@ -28,9 +28,13 @@ function resultado () {
 		document.querySelector("#resultado").style.color = '#00f700';
 		document.querySelector("#msgResponsavel").innerHTML = '';
 
+	} else if (resultado <= 6.5 && resultado >= -6.5) {
+		document.querySelector("#resultado").style.color = 'yellow';
+		document.querySelector("#msgResponsavel").innerHTML = 'A máquina poderá trabalhar mas terá um risco de reprovar a peça.';
+		document.querySelector("#informeResponsavel").innerHTML = 'Informe o responsável';
 	} else {
 		document.querySelector("#resultado").style.color = '#c31212';
-		document.querySelector("#msgResponsavel").style.fontSize = '20px';
+		document.querySelector("#msgResponsavel").style.fontSize = '15px';
 		document.querySelector("#msgResponsavel").innerHTML = 'Fora do especificado';
 	}
 	}
