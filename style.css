@@ -83,6 +83,7 @@ button {
     top: 70px;
     text-align: justify;
     font-size: 15px;
+    line-height: 18px;
 }
 
 .rodape2 {
@@ -92,5 +93,25 @@ button {
     top: 100px;
     text-align: justify;
     font-size: 15px;
+    line-height: 18px;
 }
 
+#msgResponsavel {
+    width: 240px;
+    position: relative;
+    margin: 0px auto;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#informeResponsavel {
+    width: 240px;
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    color: orange;
+    top: 5px;
+}
